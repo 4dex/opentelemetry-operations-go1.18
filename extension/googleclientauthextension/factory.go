@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package googleclientauthextension // import "github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension"
+package googleclientauthextension // import "github.com/4dex/opentelemetry-operations-go/extension/googleclientauthextension"
 
 import (
 	"context"
@@ -25,7 +25,7 @@ import (
 	"golang.org/x/oauth2/google"
 	"google.golang.org/grpc/credentials/oauth"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension/internal/metadata"
+	"github.com/4dex/opentelemetry-operations-go/extension/googleclientauthextension/internal/metadata"
 )
 
 // NewFactory creates a factory for the GCP Auth extension.

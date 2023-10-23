@@ -57,9 +57,9 @@ import (
 	"github.com/tidwall/wal"
 	"go.uber.org/zap"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/datapointstorage"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/normalization"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/datapointstorage"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/normalization"
+	"github.com/4dex/opentelemetry-operations-go/internal/resourcemapping"
 )
 
 // self-observability reporting meters/tracers/loggers.

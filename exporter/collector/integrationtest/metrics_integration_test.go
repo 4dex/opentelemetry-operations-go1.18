@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
+	"github.com/4dex/opentelemetry-operations-go/internal/resourcemapping"
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/metric"
 )
 
 func createMetricsExporter(

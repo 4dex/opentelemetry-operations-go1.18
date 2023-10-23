@@ -28,7 +28,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 
-	texporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
+	texporter "github.com/4dex/opentelemetry-operations-go/exporter/trace"
 )
 
 // TraceExporter is a wrapper struct of OT cloud trace exporter.

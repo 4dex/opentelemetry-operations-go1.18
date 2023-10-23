@@ -24,9 +24,9 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"google.golang.org/api/option"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/googlemanagedprometheus"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/googlemanagedprometheus"
+	"github.com/4dex/opentelemetry-operations-go/exporter/metric"
 )
 
 var MetricsTestCases = []TestCase{

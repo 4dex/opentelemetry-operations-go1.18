@@ -22,7 +22,7 @@ import (
 	"go.opentelemetry.io/otel/metric"
 	sdkmetric "go.opentelemetry.io/otel/sdk/metric"
 
-	mexporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
+	mexporter "github.com/4dex/opentelemetry-operations-go/exporter/metric"
 )
 
 func ExampleNew() {
@@ -43,7 +43,7 @@ func ExampleNew() {
 	}()
 
 	// Start meter
-	meter := provider.Meter("github.com/GoogleCloudPlatform/opentelemetry-operations-go/example/metric")
+	meter := provider.Meter("github.com/4dex/opentelemetry-operations-go/example/metric")
 
 	counter, err := meter.Int64Counter("counter-foo")
 	if err != nil {

@@ -20,7 +20,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/e2e-test-server/scenarios"
+	"github.com/4dex/opentelemetry-operations-go/e2e-test-server/scenarios"
 )
 
 // pullServer is an end-to-end test service.

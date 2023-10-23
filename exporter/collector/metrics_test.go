@@ -39,7 +39,7 @@ import (
 	"google.golang.org/protobuf/testing/protocmp"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/normalization"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/normalization"
 )
 
 var (

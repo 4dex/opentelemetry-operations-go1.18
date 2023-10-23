@@ -35,7 +35,7 @@ import (
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping"
+	"github.com/4dex/opentelemetry-operations-go/internal/resourcemapping"
 )
 
 const (

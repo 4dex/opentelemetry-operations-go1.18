@@ -24,7 +24,7 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"google.golang.org/genproto/googleapis/rpc/code"
 
-	texporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
+	texporter "github.com/4dex/opentelemetry-operations-go/exporter/trace"
 )
 
 func HandleMessage(ctx context.Context, client *pubsub.Client, attributes map[string]string) error {

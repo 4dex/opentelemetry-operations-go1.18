@@ -14,7 +14,7 @@
 
 package testcases
 
-import "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
+import "github.com/4dex/opentelemetry-operations-go/exporter/collector"
 
 var TracesTestCases = []TestCase{
 	{

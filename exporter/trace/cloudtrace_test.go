@@ -39,7 +39,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/cloudmock"
+	"github.com/4dex/opentelemetry-operations-go/internal/cloudmock"
 )
 
 func TestExporter_ExportSpan(t *testing.T) {

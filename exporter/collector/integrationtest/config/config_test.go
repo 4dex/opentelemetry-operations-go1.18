@@ -24,7 +24,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
 )
 
 const (

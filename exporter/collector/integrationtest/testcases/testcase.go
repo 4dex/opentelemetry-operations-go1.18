@@ -27,8 +27,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	distributionpb "google.golang.org/genproto/googleapis/api/distribution"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
+	"github.com/4dex/opentelemetry-operations-go/exporter/metric"
 
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/pdata/pcommon"
@@ -37,8 +37,8 @@ import (
 	"google.golang.org/protobuf/encoding/protojson"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/logsutil"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/logsutil"
 )
 
 var (

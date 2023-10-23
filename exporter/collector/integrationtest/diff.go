@@ -22,8 +22,8 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/testing/protocmp"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
 )
 
 var (

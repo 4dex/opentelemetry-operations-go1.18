@@ -30,8 +30,8 @@ import (
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"go.opentelemetry.io/otel/trace"
 
-	cloudtrace "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
-	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
+	cloudtrace "github.com/4dex/opentelemetry-operations-go/exporter/trace"
+	gcppropagator "github.com/4dex/opentelemetry-operations-go/propagator"
 )
 
 func initTracer() (func(), error) {

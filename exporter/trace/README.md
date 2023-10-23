@@ -24,7 +24,7 @@ import (
 	"context"
 	"log"
 
-	texporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
+	texporter "github.com/4dex/opentelemetry-operations-go/exporter/trace"
 
 	"go.opentelemetry.io/otel"
 	sdktrace "go.opentelemetry.io/otel/sdk/trace"
@@ -53,8 +53,8 @@ func main() {
 
 The Google Cloud Trace exporter depends upon [`google.FindDefaultCredentials`](https://pkg.go.dev/golang.org/x/oauth2/google?tab=doc#FindDefaultCredentials), so the service account is automatically detected by default, but also the custom credential file (so called `service_account_key.json`) can be detected with specific conditions. Quoting from the document of `google.FindDefaultCredentials`:
 
-* A JSON file whose path is specified by the `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
-* A JSON file in a location known to the gcloud command-line tool. On Windows, this is `%APPDATA%/gcloud/application_default_credentials.json`. On other systems, `$HOME/.config/gcloud/application_default_credentials.json`.
+- A JSON file whose path is specified by the `GOOGLE_APPLICATION_CREDENTIALS` environment variable.
+- A JSON file in a location known to the gcloud command-line tool. On Windows, this is `%APPDATA%/gcloud/application_default_credentials.json`. On other systems, `$HOME/.config/gcloud/application_default_credentials.json`.
 
 When running code locally, you may need to specify a Google Project ID in addition to `GOOGLE_APPLICATION_CREDENTIALS`. This is best done using an environment variable (e.g. `GOOGLE_CLOUD_PROJECT`) and the `WithProjectID` method, e.g.:
 
@@ -66,9 +66,9 @@ exporter, err := texporter.New(texporter.WithProjectID(projectID))
 
 ## Useful links
 
-* For more information on OpenTelemetry, visit: https://opentelemetry.io/
-* For more about OpenTelemetry Go, visit: https://github.com/open-telemetry/opentelemetry-go
-* Learn more about Google Cloud Trace at https://cloud.google.com/trace
+- For more information on OpenTelemetry, visit: https://opentelemetry.io/
+- For more about OpenTelemetry Go, visit: https://github.com/open-telemetry/opentelemetry-go
+- Learn more about Google Cloud Trace at https://cloud.google.com/trace
 
 [license-url]: https://github.com/GoogleCloudPlatform/opentelemetry-operations-go/blob/main/LICENSE
 [license-image]: https://img.shields.io/badge/license-Apache_2.0-green.svg?style=flat

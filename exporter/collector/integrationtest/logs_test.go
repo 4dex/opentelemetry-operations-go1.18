@@ -22,9 +22,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/cloudmock"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
+	"github.com/4dex/opentelemetry-operations-go/internal/cloudmock"
 )
 
 func TestLogs(t *testing.T) {

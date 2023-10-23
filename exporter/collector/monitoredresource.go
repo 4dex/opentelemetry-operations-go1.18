@@ -22,7 +22,7 @@ import (
 	semconv "go.opentelemetry.io/collector/semconv/v1.18.0"
 	monitoredrespb "google.golang.org/genproto/googleapis/api/monitoredres"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping"
+	"github.com/4dex/opentelemetry-operations-go/internal/resourcemapping"
 )
 
 type attributes struct {

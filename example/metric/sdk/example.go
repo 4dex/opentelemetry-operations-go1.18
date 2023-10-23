@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	mexporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
+	mexporter "github.com/4dex/opentelemetry-operations-go/exporter/metric"
 
 	"go.opentelemetry.io/contrib/detectors/gcp"
 	"go.opentelemetry.io/otel/attribute"
@@ -94,7 +94,7 @@ func main() {
 	}()
 
 	// Create a meter with which we will record metrics for our package.
-	meter := provider.Meter("github.com/GoogleCloudPlatform/opentelemetry-operations-go/example/metric")
+	meter := provider.Meter("github.com/4dex/opentelemetry-operations-go/example/metric")
 
 	// Register counter value
 	counter, err := meter.Int64Counter("counter-a")

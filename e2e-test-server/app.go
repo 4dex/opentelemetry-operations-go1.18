@@ -21,7 +21,7 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/e2e-test-server/endtoendserver"
+	"github.com/4dex/opentelemetry-operations-go/e2e-test-server/endtoendserver"
 )
 
 func main() {

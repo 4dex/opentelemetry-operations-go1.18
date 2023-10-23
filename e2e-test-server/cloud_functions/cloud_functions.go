@@ -28,7 +28,7 @@ import (
 	"github.com/GoogleCloudPlatform/functions-framework-go/functions"
 	"github.com/cloudevents/sdk-go/v2/event"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/e2e-test-server/scenarios"
+	"github.com/4dex/opentelemetry-operations-go/e2e-test-server/scenarios"
 )
 
 var projectID string

@@ -32,8 +32,8 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.18.0"
 	"go.opentelemetry.io/otel/trace"
 
-	texporter "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace"
-	gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
+	texporter "github.com/4dex/opentelemetry-operations-go/exporter/trace"
+	gcppropagator "github.com/4dex/opentelemetry-operations-go/propagator"
 )
 
 func initTracer() (func(), error) {

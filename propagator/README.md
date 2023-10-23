@@ -4,7 +4,7 @@
 
 This package contains Trace Context Propagators for use with [Google Cloud
 Trace](https://cloud.google.com/trace) that make it compatible with
-[OpenTelemetry](http://opentelemetry.io). 
+[OpenTelemetry](http://opentelemetry.io).
 
 There are two available propagators in this package:
 
@@ -22,13 +22,13 @@ traces that some Google Cloud services [automatically trace](https://cloud.googl
 ```golang
 import (
     "go.opentelemetry.io/otel/propagation"
-    gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
+    gcppropagator "github.com/4dex/opentelemetry-operations-go/propagator"
 )
 
 func installPropagators() {
     otel.SetTextMapPropagator(
         propagation.NewCompositeTextMapPropagator(
-            // Putting the CloudTraceOneWayPropagator first means the TraceContext propagator 
+            // Putting the CloudTraceOneWayPropagator first means the TraceContext propagator
             // takes precedence if both the traceparent and the XCTC headers exist.
             gcppropagator.CloudTraceOneWayPropagator{},
             propagation.TraceContext{},
@@ -49,13 +49,13 @@ has a deferred tracing decision.
 ```golang
 import (
     "go.opentelemetry.io/otel/propagation"
-    gcppropagator "github.com/GoogleCloudPlatform/opentelemetry-operations-go/propagator"
+    gcppropagator "github.com/4dex/opentelemetry-operations-go/propagator"
 )
 
 func installPropagators() {
     otel.SetTextMapPropagator(
         propagation.NewCompositeTextMapPropagator(
-            // Putting the CloudTraceFormatPropagator first means the TraceContext propagator 
+            // Putting the CloudTraceFormatPropagator first means the TraceContext propagator
             // takes precedence if both the traceparent and the XCTC headers exist.
             gcppropagator.CloudTraceFormatPropagator{},
             propagation.TraceContext{},
@@ -81,7 +81,7 @@ the `TRACE_TRUE` flag will cause trace information to be collected.
 
 This differs from the W3C behavior, where the [`sampled`
 flag](https://www.w3.org/TR/trace-context/#sampled-flag) indicates that the
-caller *may* have recorded trace information, but does not necessarily impact
+caller _may_ have recorded trace information, but does not necessarily impact
 the sampling done by other services.
 
 To preserve the Cloud-Trace behavior when using `traceparent`, you can use the

@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/component/componenttest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

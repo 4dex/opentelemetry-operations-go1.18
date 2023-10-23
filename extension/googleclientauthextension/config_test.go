@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package googleclientauthextension // import "github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension"
+package googleclientauthextension // import "github.com/4dex/opentelemetry-operations-go/extension/googleclientauthextension"
 
 import (
 	"path/filepath"
@@ -23,7 +23,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/extension/googleclientauthextension/internal/metadata"
+	"github.com/4dex/opentelemetry-operations-go/extension/googleclientauthextension/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

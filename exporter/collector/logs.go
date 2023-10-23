@@ -44,8 +44,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/logsutil"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/logsutil"
+	"github.com/4dex/opentelemetry-operations-go/internal/resourcemapping"
 )
 
 const (

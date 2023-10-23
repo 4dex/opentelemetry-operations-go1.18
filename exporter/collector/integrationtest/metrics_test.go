@@ -25,10 +25,10 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/cloudmock"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/protos"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/integrationtest/testcases"
+	"github.com/4dex/opentelemetry-operations-go/exporter/metric"
+	"github.com/4dex/opentelemetry-operations-go/internal/cloudmock"
 )
 
 func TestCollectorMetrics(t *testing.T) {

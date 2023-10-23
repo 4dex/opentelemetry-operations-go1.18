@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/datapointstorage"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/datapointstorage"
 )
 
 // NewStandardNormalizer performs normalization on cumulative points which:

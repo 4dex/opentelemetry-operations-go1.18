@@ -15,8 +15,8 @@
 package testcases
 
 import (
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"
-	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector/internal/logsutil"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector"
+	"github.com/4dex/opentelemetry-operations-go/exporter/collector/internal/logsutil"
 )
 
 var LogsTestCases = []TestCase{

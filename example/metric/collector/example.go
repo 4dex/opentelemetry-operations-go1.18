@@ -94,7 +94,7 @@ func main() {
 	}()
 
 	// Create a meter with which we will record metrics for our package.
-	meter := provider.Meter("github.com/GoogleCloudPlatform/opentelemetry-operations-go/example/collector/metric")
+	meter := provider.Meter("github.com/4dex/opentelemetry-operations-go/example/collector/metric")
 
 	// Register counter value
 	counter, err := meter.Int64Counter("counter-a-collector")
